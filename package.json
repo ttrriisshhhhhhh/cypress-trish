@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "executeInChromeHeaded": "npx cypress run --spec cypress\\e2e\\midterm_spec.cy.js --browser chrome --headed --e2e",
+    "executeInEdgeHeadless": "npx cypress run --spec cypress\\e2e\\midterm_spec.cy.js --browser edge --e2e"
+  },
+  "author": "Trish",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
+    "cypress": "^12.9.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
